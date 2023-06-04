@@ -72,7 +72,7 @@
 	{#each toDos as toDo}
 		<div class="shadow my-3 p-3 lead">
 			<!-- <p class={toDo.status ? "text-decoration-line-through" : ""}> -->
-			<p class:text-decoration-line-through={toDo.status}>
+			<p class:text-decoration-line-through={toDo.status}	>
 				
 				{toDo.text}
 			</p>
