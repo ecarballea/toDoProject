@@ -25,7 +25,7 @@ const createToDos = () => {
 export let toDos = createToDos()
 
 const createOpt = () => {
-    const {subscribe, update, set} = writable({
+    const { subscribe, update, set } = writable({
         text: "", color: "", status: false
     })
 

@@ -23,6 +23,7 @@
 
 <!-- the Toast container -->
 <div class="toast-container position-absolute p-3 top-0 end-0">
+    <!-- class="toast align-items-center text-white bg-{$opt.color} border-0" -->
     <div
         bind:this={toastTopRight}
         class="toast align-items-center text-white bg-{$opt.color} border-0"
